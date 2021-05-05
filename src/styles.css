@@ -1,0 +1,83 @@
+@import url("https://satik-ui.netlify.app/styles/styles.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --font-rg: 0.938rem;
+  --font-sm: 0.75rem;
+  --font-md: 500;
+  --font-bold: 600;
+
+  --primary-dark-color: #181818;
+  --secondary-dark-color: rgb(33 33 33 / 95%);
+  --light-gray-color: #aaaaaa;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --font-rg: 1rem;
+    --font-sm: 0.875rem;
+  }
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+img,
+embed,
+video,
+object {
+  max-width: 100%;
+  height: auto;
+}
+
+.video-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 1500px) {
+  .video-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+
+.card-text-date {
+  color: var(--light-color);
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  display: none;
+}
+
+@media screen and (min-width: 535px) {
+  .card-text-date {
+    display: inline;
+    font-size: var(--font-md);
+  }
+}
+
+.btn.active {
+  background: var(--primary-color);
+  color: var(--light-color);
+}
+
+i {
+  color: var(--white-color);
+}
+
+.icon-cross:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.card-description {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 0.5rem 0.25rem;
+}
+
+.card-description .card-text {
+  padding: 0;
+}
+
+.card-icon-watch {
+  position: absolute;
+  left: 0.75rem;
+  bottom: 0.5rem;
+  color: var(--primary-color);
+  z-index: var(--z-index);
+}
+
+.card-icon-watch:hover{
+  color: var(--hover-color);
+}
