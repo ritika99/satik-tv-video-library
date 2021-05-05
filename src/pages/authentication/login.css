@@ -1,0 +1,18 @@
+.form-box {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  width: 25rem;
+  margin: auto;
+}
+
+input {
+  background-color: transparent;
+  color: var(--white-color);
+}
+
+.input-field {
+  width: 22.5rem;
+  text-align: left;
+}

@@ -1,0 +1,16 @@
+.icon-cross.hide {
+  display: none;
+}
+
+.badge-status {
+  padding-top: 0.2rem;
+}
+
+.icon-cross.badge-status:hover {
+  color: var(--white-color);
+}
+
+.container-flex {
+  justify-content: center;
+  margin: 0;
+}
