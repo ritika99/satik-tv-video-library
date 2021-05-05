@@ -8,7 +8,7 @@ export function Header({headerToggle, setHeaderToggle}) {
       <header className="header">
         <div className="header-container">
           <a href="/" className="header-logo">
-            <img src={logo} alt="logo" />TV
+            SatikTV
           </a>
           <Searchbar />
           <HeaderMenu headerToggle={headerToggle} setHeaderToggle={setHeaderToggle}/>
